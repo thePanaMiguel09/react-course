@@ -29,6 +29,3 @@ console.log(saludar("Miguel"));
 console.log(saludar2("Angela"));
 console.log(saludar3("Daniela"));
 console.log(saludar4("Carlos Arturo"));
-
-
-
