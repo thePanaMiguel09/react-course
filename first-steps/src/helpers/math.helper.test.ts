@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest"
-import { add, multiply, substract } from "./math.helerper";
+import { add, divide, multiply, substract } from "./math.helerper";
 
 
 describe('add', () => {
@@ -77,4 +77,17 @@ describe('multiply', () => {
         expect(result).toBe(a * b);
     })
 });
+
+
+describe('devide', () => {
+    test('Should devide two positive numbers', () =>{
+        const a = 2;
+        const b = 3;
+
+        const result = divide(a, b);
+
+        expect(result).toBe(a/b);
+    })
+})
+
 
