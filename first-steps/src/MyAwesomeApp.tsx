@@ -25,8 +25,8 @@ export function MyAwesomeApp() {
     <div>
       <h1 data-testid= "first-name-title">{name}</h1>
       <h2>{lastName}</h2>
-      <p>{favoriteGames.join(", ")}</p>
       <h1>{isActive ? "Activo" : "Inactivo"}</h1>
+      <p className="my-fav-class">{favoriteGames.join(", ")}</p>
       <h1 style={titleStyles}>{JSON.stringify(address)}</h1>
     </div>
   );
